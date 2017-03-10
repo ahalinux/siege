@@ -1,0 +1,32 @@
+{
+  "name": "siege",
+  "version": "1.0.0",
+  "description": "\u0016This is Multiplayer Game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahalinux/siege.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "ahalinux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahalinux/siege/issues"
+  },
+  "homepage": "https://github.com/ahalinux/siege#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2"
+  }
+}
